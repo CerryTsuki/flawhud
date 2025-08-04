@@ -268,17 +268,17 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		"max_size"		"20"
+		"max_size"		"25"
 		"6v6_gap"		"2"
 		"12v12_gap"		"2"
 
 		"team1_grow_dir" 	"west"
 		"team1_base_x"		"c-45"
-		"team1_max_expand"	"250"
+		"team1_max_expand"	"280"
 
 		"team2_grow_dir"	"east"
 		"team2_base_x"		"c45"
-		"team2_max_expand"	"250"
+		"team2_max_expand"	"280"
 
 		"playerpanels_kv"
 		{
@@ -305,14 +305,18 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
 				"font"			"DefaultVerySmall"
-				"xpos"			"5"
-				"ypos"			"24"
+				"font"			"PlayerPanelPlayerName"
+				"xpos"			"cs-0.5"
+				"ypos"			"20"
 				"zpos"			"5"
-				"wide"			"50"
+				"wide"			"p1.05"
 				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"0"
+				"visible"		"1"
+				"textAlignment"	"center"
+				"labelText"		"%playername%"
+				"proportionaltoparent" "1"
 			}
 			"classimage"
 			{
